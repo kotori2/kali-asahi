@@ -1,0 +1,31 @@
+{
+	"os_list": [
+		{
+			"name": "Kali Linux 2023.3",
+			"default_os_name": "Kali",
+			"boot_object": "m1n1.bin",
+			"next_object": "m1n1/boot.bin",
+			"package": "kali-linux-2023.3-20230619.zip",
+			"supported_fw": ["12.3", "12.3.1", "12.4", "13.3"],
+			"partitions": [
+				{
+					"name": "EFI",
+					"type": "EFI",
+					"size": "500MB",
+					"format": "fat",
+					"volume_id": "0x2abf9f91",
+					"copy_firmware": true,
+					"copy_installer_data": true,
+					"source": "esp"
+				},
+				{
+					"name": "Root",
+					"type": "Linux",
+					"size": "12GB",
+					"expand": true,
+					"image": "disk.img"
+				}
+			]
+		}
+	]
+}
