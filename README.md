@@ -4,7 +4,7 @@ This repository contains scripts for compiling native Kali image for Apple silic
 ### Hosted Installer
 To install a prebuilt image run:
 ```
-curl -sL https://tobhe.de/ubuntu/install > install.sh	# Download
+curl -sL https:// > install.sh	# Download
 less install.sh						# Review
 sh install.sh						# Run
 
