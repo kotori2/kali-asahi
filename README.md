@@ -11,6 +11,9 @@ sh install.sh						# Run
 ```
 
 
+#### Can I dual-boot macOS and Linux?
+Yes! The installer can automatically resize your macos partition according to your liking and install Kali  in the freed up space. Removing macos is not even supported at the moment since it is required to update the system firmware.
+
 
 ### Related Projects
 - [Asahi Linux](https://asahilinux.org/)
