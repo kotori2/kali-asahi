@@ -1,4 +1,4 @@
-# Kali Apple Silicon Image
+# Kali Apple Silicon Image - Work on Progress 
 This repository contains scripts for compiling native Kali image for Apple silicon hardware such as Apple M1 and M2.
 
 ### Hosted Installer
@@ -14,6 +14,9 @@ sh install.sh						# Run
 #### Can I dual-boot macOS and Linux?
 Yes! The installer can automatically resize your macos partition according to your liking and install Kali  in the freed up space. Removing macos is not even supported at the moment since it is required to update the system firmware.
 
+#### How can I boot macos or change the default boot entry?
+
+Hold the power button on boot until you see "Loading starup options". You can now choose which system you want to boot. You can change the default boot entry by holding the Option key and selecting "Always Use".
 
 ### Related Projects
 - [Asahi Linux](https://asahilinux.org/)
